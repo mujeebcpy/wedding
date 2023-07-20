@@ -48,8 +48,8 @@ export default function Home() {
                 മണിവരെ നടക്കുന്ന കല്യാണസൽക്കാരത്തിലേക്ക് നിങ്ങളെ സ്നേഹത്തോടെ
                 സ്വാഗതം ചെയ്യുന്നു. ”
               </p>
-              <p>സ്നേഹപൂർവ്വം</p>
-              <p>ശരണ്യ & മുജീബ്.</p>
+              <p className="font-manjari">സ്നേഹപൂർവ്വം</p>
+              <p className="font-manjari">ശരണ്യ & മുജീബ്.</p>
             </div>
             <div className="flex flex-col ">
               <p className="font-habibi">Wedding of</p>
