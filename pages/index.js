@@ -42,11 +42,11 @@ export default function Home() {
           <div className="flex flex-col text-white px-8 pb-20 pt-28 justify-end">
             <div className="flex flex-col text-center my-auto">
               <p>
-                “സുഹൃത്തേ, ഈ വരുന്ന ഓഗസ്റ്റ് 18 ന് ഞങ്ങൾ സ്പെഷ്യൽ മാരേജ് ആക്ട്
-                പ്രകാരം വിവാഹിതരാവുകയാണ്. തുടർന്ന് ഓഗസ്റ്റ് 20 ന് വട്ടേക്കാട്
-                ആത്രേയ കല്ല്യാണമഹലിൽ വെച്ച് പകൽ 11.00 മുതൽ 2.00 മണിവരെ നടക്കുന്ന
-                കല്യാണസൽക്കാരത്തിലേക്ക് നിങ്ങളെ സ്നേഹത്തോടെ സ്വാഗതം ചെയ്യുന്നു.
-                ”
+                “സുഹൃത്തേ, <br />ഈ വരുന്ന ഓഗസ്റ്റ് 18 ന് ഞങ്ങൾ സ്പെഷ്യൽ മാരേജ്
+                ആക്ട് പ്രകാരം വിവാഹിതരാവുകയാണ്. തുടർന്ന് ഓഗസ്റ്റ് 20 ന്
+                വട്ടേക്കാട് ആത്രേയ കല്ല്യാണമഹലിൽ വെച്ച് പകൽ 11.00 മുതൽ 2.00
+                മണിവരെ നടക്കുന്ന കല്യാണസൽക്കാരത്തിലേക്ക് നിങ്ങളെ സ്നേഹത്തോടെ
+                സ്വാഗതം ചെയ്യുന്നു. ”
               </p>
               <p>സ്നേഹപൂർവ്വം</p>
               <p>ശരണ്യ & മുജീബ്.</p>
@@ -127,7 +127,7 @@ export default function Home() {
         </section>
         <section
           id="gallery"
-          className="bg-dark-500 pt-8 md:pt-0 lg:pt-32 pb-24 lg:pb-8 grid grid-flow-row gap-4 grid-rows-7 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 h-screen px-4 lg:px-8"
+          className="bg-dark-500 pt-8 md:pt-0 lg:pt-32 pb-24 lg:pb-8 grid grid-flow-row gap-3 grid-rows-8 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3  px-4 lg:px-8 "
         >
           <h1 className="col-span-2  text-5xl font-great-vibes my-auto mx-auto text-white lg:hidden">
             Gallery
@@ -138,40 +138,40 @@ export default function Home() {
               alt="Picture of the author"
               width={500}
               height={500}
-              objectFit="none"
+              className="object-cover"
               quality={100}
               loading="lazy"
             />
           </div>
-          <div className="flex  row-start-3 col-start-2 row-span-3 lg:row-span-5 bg-white">
+          <div className="flex  row-start-4 col-start-2 row-span-3 lg:row-span-5 bg-white">
             <Image
               src="/assets/gallery-mobile/photo-2.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
-              objectFit="none"
               quality={100}
+              className="object-cover"
               loading="lazy"
             />
           </div>
-          <div className="flex row-span-1 col-start-2 lg:col-start-3 row-start-2  lg:row-span-2">
+          <div className="flex row-span-2 col-start-2 lg:col-start-3 row-start-2  lg:row-span-2">
             <Image
               src="/assets/gallery-mobile/photo-3.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
-              objectFit="none"
               quality={100}
+              className="object-cover"
               loading="lazy"
             />
           </div>
-          <div className="flex row-span-1 lg:row-span-3">
+          <div className="flex row-span-2 lg:row-span-3">
             <Image
               src="/assets/gallery-mobile/photo-4.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
-              objectFit="none"
+              className="object-cover"
               quality={100}
               loading="lazy"
             />
@@ -180,9 +180,10 @@ export default function Home() {
             <Image
               src="/assets/gallery-mobile/photo-5.jpg"
               alt="Picture of the author"
-              layout="fill"
-              objectFit="none"
+              width={500}
+              height={500}
               quality={100}
+              className="object-cover"
               loading="lazy"
             />
           </div>
